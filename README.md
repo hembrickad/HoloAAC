@@ -12,7 +12,7 @@ The object detection and conversation retrieval scripts are done completely in P
 
 Output of inference_local.py: You can provide this script with a path to an image, run the script, and a bounding box with the name of the object class in the upper left corner will be displayed as the output. You will ALSO be able to see the probability of detection for EACH object that was detected. The object with the highest probability or accuracy is the one displayed in the picture
 
-Conversation retrieval is also done locally, however there are some issues with packages that prevent it from being run locally. This is discussed in more detail in the actual script called "gs_sentence_retrieval.py." This is the local version of the script, containing a different set of stopword removal packages. The google colab script is "updatedWeights_conv_retrieval.ipynb" and contains a more comprehensive stopword removal package, spacy. 
+Conversation retrieval is also done locally, however there are some issues with packages that prevent it from being run locally. This is discussed in more detail in the actual script called "updatedWeights_conv_retrieval.ipynb." The local script is also provided, but the google colab script contains a more comprehensive stopword removal package, spacy. 
 
 Output of updatedWeights_conv_retrieval.ipynb: This script takes in a local text file callled "grocery_store_sentences.txt" which contains a list of ~100 sentences relating to things commonly asked at the grocery store. The output is a table of weights that assigns a weight to each "distinguishing" word within the dataset. For more specifics on this, please refer to the script. 
 
