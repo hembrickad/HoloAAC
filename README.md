@@ -18,5 +18,10 @@ Output of updatedWeights_conv_retrieval.ipynb: This script takes in a local text
 
 For specific code inquiries, please review the comments in each script and/or reach out to rampa009@umn.edu
 
+#Adrienne Section:
+
+The main physical GUI of the menu is finished. There is no real underlying code to make the menu function. You will need Unity 2021 in order to run the main software, but in the process you may come to realize that you need more than one type of Unity inorder to make some other aspects run. The Hololens Emulator is a good tool to have for my section dof the project, but if you dont have Windows 10 (not the home version), then the game tester in Unity should work fine. 
+
+There is a more detailed readme in the Unity code (quite fittingly a code labeled Readme).Most of the resources used on my part of the projects should be located on that document
 
 
